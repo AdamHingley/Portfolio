@@ -162,6 +162,7 @@ nav a:hover{
 }
 .new{
   color:orange;
+  font-size:10px;
   opacity: 0;
   line-height: 1;
 }
