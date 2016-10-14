@@ -43,12 +43,7 @@ nav ul{
   list-style-type: none;
 }
 nav ul :hover{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  white-space: nowrap;
-  transform: translateX(-50%);
-  transition: all .2s ease-in-out .2s;
+  color:pink;
 }
 nav ul li{
   display: inline-block;
