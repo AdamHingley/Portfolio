@@ -41,14 +41,14 @@ nav ul{
   color:white;
   float:right;
   list-style-type: none;
+}
+nav ul :hover{
   position: absolute;
   top: 0;
   left: 50%;
   white-space: nowrap;
   transform: translateX(-50%);
-  
-
-
+  transition: all .2s ease-in-out .2s;
 }
 nav ul li{
   display: inline-block;
@@ -59,9 +59,7 @@ nav a{
   color:inherit;
 }
 nav a:hover{
-  color: #706ed1;
-  transition: all .2s ease-in-out .2s;
-
+  color: #706ed1; 
 }
 /*Header section*/
 #header{
@@ -163,18 +161,4 @@ nav a:hover{
 }
 .section2 h4{
   font-weight: 100;
-}
-.new{
-  color:orange;
-  font-size:10px;
-  opacity: 0;
-}
-.new:hover{
-  opacity:100;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  white-space: nowrap;
-  transform: translateX(-50%);
-  transition: all .2s ease-in-out .2s;
 }
