@@ -38,9 +38,6 @@ nav ul{
   float:right;
   list-style-type: none;
 }
-nav ul :hover{
-  color:pink;
-}
 nav ul li{
   display: inline-block;
   margin: 0px 40px;
