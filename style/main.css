@@ -160,3 +160,16 @@ nav a:hover{
 .section2 h4{
   font-weight: 100;
 }
+.new{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: .625rem;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  transition: all .2s ease-in-out .2s;
+}
