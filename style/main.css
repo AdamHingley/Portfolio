@@ -32,11 +32,20 @@ nav{
 nav h1{
   color: white;
   float:left;
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 40px;
 }
 nav ul{
   color:white;
   float:right;
   list-style-type: none;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+
+
 }
 nav ul li{
   display: inline-block;
@@ -47,7 +56,8 @@ nav a{
   color:inherit;
 }
 nav a:hover{
-  color: #706ed1; 
+  color: #706ed1;
+
 }
 /*Header section*/
 #header{
